@@ -1,20 +1,16 @@
 <template>
-  <div class="container">
+  <div class="container mb-2 pb-2">
     <div class="jumbotron mb-3">
-      <h1 class="display-4">Hello, Aberoa</h1>
-      <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
+      <h1 class="display-4">Hello, Cinema</h1>
+      <p class="lead">Jangan sampai Anda lewatkan jadwal terbaru movie dan film kesayangan Anda</p>
       <hr class="my-4" />
       <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
+        Di Kota Malang Sendiri telah berdiri tiga Bioskop 21 yang terletak di beberapa lokasi antara lain Malang Town Square
+        (Cinemaxx Matos), Dieng Plaza (Dieng21), Malang Plaza (Mandala21), Dinoyo Cineplex (Dinoyo Movimax), Sarinah Cineplex (Sarinah Movimax),
+        Cinemax Lippo Plaza Batu (Cinemaxx Batos), XXI Plaza Araya, MoviMax Malang City Point (MCP) dan yang paling baru ada Transmart MX XXI Malang.
       </p>
       <p class="lead">
-        <router-link class="btn btn-primary" to="/about"
-          >Learn More</router-link
-        >
+        <router-link class="btn btn-primary" to="/about">Learn More</router-link>
       </p>
     </div>
 
@@ -30,9 +26,9 @@
 
 <script>
 // @ is an alias to /src
-var chunk = require('chunk');
+var chunk = require("chunk");
 export default {
-  name: 'Home',
+  name: "Home",
   components: {},
   data() {
     return {};

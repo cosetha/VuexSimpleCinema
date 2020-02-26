@@ -31,7 +31,7 @@
       </div>
     </nav>
     <router-view />
-    <footer class="page-footer font-small blue pt-4">
+    <footer class="page-footer font-small bg-white pt-4 mb-0">
       <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">
         <!-- Grid row -->
@@ -104,4 +104,9 @@
   </div>
 </template>
 
-<style></style>
+<style>
+#app {
+  background: #e0e0e0;
+  background: linear-gradient(to right, #e8e8e8, #f5f5f5);
+}
+</style>
