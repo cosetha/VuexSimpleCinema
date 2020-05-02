@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-2 pb-2">
+  <div class="container mb-2 pb-2 h-100">
     <div class="jumbotron mb-3">
       <h1 class="display-4">Hello, Cinema</h1>
       <p class="lead">Jangan sampai Anda lewatkan jadwal terbaru movie dan film kesayangan Anda</p>
@@ -44,3 +44,11 @@ export default {
   methods: {}
 };
 </script>
+<style scoped>
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+</style>
